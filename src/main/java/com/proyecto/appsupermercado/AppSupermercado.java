@@ -20,9 +20,9 @@ public class AppSupermercado {
         Inventario inventario = new Inventario();
 
         
-        String txtProveedores = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\proveedores.txt";
-        String txtProductos = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\productos.txt";
-        String txtReporte = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\reporte.txt";
+        String txtProveedores = "C:\\Users\\Fer\\Documents\\GitHub\\AppSupermercado\\proveedores.txt";
+        String txtProductos = "C:\\Users\\Fer\\Documents\\GitHub\\AppSupermercado\\productos.txt";
+        String txtReporte = "C:\\Users\\Fer\\Documents\\GitHub\\AppSupermercado\\reporte.txt";
 
         inventario.cargarProveedores(txtProveedores);
         System.out.println("Proovedores cargados! :D");
@@ -50,21 +50,21 @@ public class AppSupermercado {
                 int opcion = scanner.nextInt();
                 scanner.nextLine();
 
-                //String opcionStr = scanner.nextLine();
-                //int opcion = Integer.parseInt(opcionStr);
+              
                 switch (opcion) {
                     case 0:
                         // Guarda los datos antes de salir de la aplicación
                         System.out.println("Saliendo...");
 
+                        
                         //guardar datos
-                        txtProveedores = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\proveedores.txt";
-                        txtProductos = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\productos.txt";
+                        txtProveedores = "C:\\Users\\Fer\\Documents\\GitHub\\AppSupermercado\\proveedores.txt";
+                        txtProductos = "C:\\Users\\Fer\\Documents\\GitHub\\AppSupermercado\\productos.txt";
                         System.out.println("Guardando datos antes de salir ...");
                         inventario.guardarDatos(txtProveedores, txtProductos);
                         System.out.println("Proovedores guardados! :D");
                         System.out.println("Productos guardados! :D");
-                        txtReporte = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\reporte.txt";
+                        txtReporte = "C:\\Users\\Fer\\Documents\\GitHub\\AppSupermercado\\reporte.txt";
                         inventario.generarReporte("reporte.txt");
                         System.exit(0);
                     case 1:
@@ -113,10 +113,9 @@ public class AppSupermercado {
                         System.out.println("3. Mostrar productos");
                         System.out.println("4. Mostrar proveedores");
                         System.out.println("5. Mostrar productos con stock bajo (<20)");
-                        System.out.println("6. Realizar orden de compra (Proximamente disponible)");
-                        System.out.println("7. Editar producto");
-                        System.out.println("8. Eliminar producto");
-                        System.out.println("9. Cargar Casos de Prueba");
+                        System.out.println("6. Editar producto");
+                        System.out.println("7. Eliminar producto");
+                        System.out.println("8. Cargar Casos de Prueba");
                         System.out.println("0. Salir");
 
                         int opcion2 = scanner.nextInt();
@@ -216,8 +215,6 @@ public class AppSupermercado {
                                 break;
 
                             case 6:
-                                break;
-                            case 7:
                                 System.out.println("Introduzca el codigo del producto que desea editar:");
                                 int codigoProductoEditar = scanner.nextInt();
                                 scanner.nextLine(); // Consume newline left-over
@@ -233,7 +230,7 @@ public class AppSupermercado {
                                 }
                                 break;
 
-                            case 8:
+                            case 7:
                                 System.out.println("Introduzca el codigo del producto que desea eliminar:");
                                 int codigoProductoAEliminar = scanner.nextInt();
                                 scanner.nextLine();
@@ -252,7 +249,7 @@ public class AppSupermercado {
                                 }
                                 break;
 
-                            case 9:
+                            case 8:
                                 //añadirDatosDePrueba(inventario);
                                 break;
 
