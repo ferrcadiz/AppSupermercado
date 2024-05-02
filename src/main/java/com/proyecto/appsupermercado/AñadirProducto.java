@@ -15,9 +15,7 @@ public class AñadirProducto extends javax.swing.JFrame {
      */
     private Inventario inventario;
     public AñadirProducto(Inventario inventario) {
-        initComponents();
-        this.setLocationRelativeTo(null);
-        this.inventario = inventario;
+        
     }
 
     /**
