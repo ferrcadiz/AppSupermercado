@@ -113,10 +113,9 @@ public class AppSupermercado {
                         System.out.println("3. Mostrar productos");
                         System.out.println("4. Mostrar proveedores");
                         System.out.println("5. Mostrar productos con stock bajo (<20)");
-                        System.out.println("6. Realizar orden de compra (Proximamente disponible)");
-                        System.out.println("7. Editar producto");
-                        System.out.println("8. Eliminar producto");
-                        System.out.println("9. Cargar Casos de Prueba");
+                        System.out.println("6. Editar producto");
+                        System.out.println("7. Eliminar producto");
+                        System.out.println("8. Cargar Casos de Prueba");
                         System.out.println("0. Salir");
 
                         int opcion2 = scanner.nextInt();
@@ -216,8 +215,6 @@ public class AppSupermercado {
                                 break;
 
                             case 6:
-                                break;
-                            case 7:
                                 System.out.println("Introduzca el codigo del producto que desea editar:");
                                 int codigoProductoEditar = scanner.nextInt();
                                 scanner.nextLine(); // Consume newline left-over
@@ -233,7 +230,7 @@ public class AppSupermercado {
                                 }
                                 break;
 
-                            case 8:
+                            case 7:
                                 System.out.println("Introduzca el codigo del producto que desea eliminar:");
                                 int codigoProductoAEliminar = scanner.nextInt();
                                 scanner.nextLine();
@@ -252,7 +249,7 @@ public class AppSupermercado {
                                 }
                                 break;
 
-                            case 9:
+                            case 8:
                                 //añadirDatosDePrueba(inventario);
                                 break;
 
