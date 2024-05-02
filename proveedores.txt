@@ -1,0 +1,5 @@
+Melisa,Costa,Cereales,1025
+Isabela,CCU,Gaseosas,1045
+Juan,Colun,L�cteos,1015
+Pedro,Virutex,Productos de aseo,1035
+Maicol,Minuto Verde,Congelados,1055

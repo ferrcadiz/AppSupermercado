@@ -1,0 +1,26 @@
+Datos de los productos:
+Arveja,2400,10051,50,Congelados,1055
+Espinaca,2000,10052,50,Congelados,1055
+Cereal,2000,10021,50,Cereales,1025
+Frutillas,3000,10053,50,Congelados,1055
+Avena,1500,10022,50,Cereales,1025
+Arroz,1200,10023,50,Cereales,1025
+Granola,1800,10024,50,Cereales,1025
+Virutilla,500,10031,50,Productos de aseo,1035
+Detergente,1500,10032,50,Productos de aseo,1035
+Jab�n,800,10033,50,Productos de aseo,1035
+Pepsi,1500,10041,50,Gaseosas,1045
+Coca-Cola,1500,10042,50,Gaseosas,1045
+Leche,1300,10011,10,L�cteos,1015
+Sprite,1500,10043,50,Gaseosas,1045
+Yogurt,400,10012,50,L�cteos,1015
+Fanta,1500,10044,50,Gaseosas,1045
+Mantequilla,10890,10013,50,L�cteos,1015
+Queso,4000,10014,50,L�cteos,1015
+
+Datos de los proveedores:
+1025,Melisa,Costa,Cereales
+1045,Isabela,CCU,Gaseosas
+1015,Juan,Colun,L�cteos
+1035,Pedro,Virutex,Productos de aseo
+1055,Maicol,Minuto Verde,Congelados

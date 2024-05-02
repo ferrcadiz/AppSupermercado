@@ -1,0 +1,26 @@
+Leche, 1300, 10011, 10, Lacteos
+Yogurt natural, 400, 10012, 50, Lacteos
+Mantequilla, 2600, 10013, 50, Lacteos
+Queso, 4000, 10014, 50, Lacteos
+Crema de leche, 1200, 10015, 50, Lacteos
+Avena, 2000, 10021, 50, Cereales
+Cereal, 4000, 10022, 50, Cereales
+Arroz, 1200, 10023, 50, Cereales
+Quinoa, 2000, 10024, 50, Cereales
+Almidón de maiz, 2500, 10025, 50, Cereales
+Virutilla, 500, 10031, 50, Productos de aseo
+Paño Absorbente, 2600, 10032, 50, Productos de aseo
+Toalla Humeda Desinfectante, 5000, 10033, 50, Productos de aseo
+Limpiador Piso Liquido, 2000, 10034, 50, Productos de aseo
+Lavalozas, 700, 10035, 50, Productos de aseo
+Pepsi, 1500, 10041, 50, Gaseosas
+Pap, 1800, 10042, 50, Gaseosas
+Bilz, 1800, 10043, 50, Gaseosas
+Crush, 1700, 10044, 50, Gaseosas
+Kem, 1700, 10045, 50, Gaseosas
+Arveja, 2400, 100451, 50, Congelados
+Mix ensalada, 2400, 10052, 50, Congelados
+Choclo grano, 2600, 10053, 50, Congelados
+Arandano, 4700, 10054, 50, Congelados
+Mix berries , 6500, 10055, 50, Congelados
+
