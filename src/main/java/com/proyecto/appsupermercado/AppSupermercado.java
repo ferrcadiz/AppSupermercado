@@ -32,10 +32,7 @@ public class AppSupermercado {
         inventario.generarReporte(txtReporte);
         System.out.println("Reporte cargado! :D");
 
-        Principal ventana = new Principal(inventario);
-        ventana.pack();
-        ventana.setLocationRelativeTo(null);
-        ventana.setVisible(true);
+        
 
         int idProveedor;
 
