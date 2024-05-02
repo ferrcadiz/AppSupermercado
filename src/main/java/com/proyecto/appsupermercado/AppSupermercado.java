@@ -20,9 +20,7 @@ public class AppSupermercado {
         Inventario inventario = new Inventario();
 
         
-        String txtProveedores = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\proveedores.txt";
-        String txtProductos = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\productos.txt";
-        String txtReporte = "C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\reporte.txt";
+        
 
         inventario.cargarProveedores(txtProveedores);
         System.out.println("Proovedores cargados! :D");
