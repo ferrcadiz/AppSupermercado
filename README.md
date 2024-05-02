@@ -11,6 +11,9 @@ ventanas las que tienen problema. El codigo se dejo para que se pueda ejecutar p
 probar las funcionalidades. En cuanto a la carga de archivos .TXT se debe modificar la ruta para que
 se pueda ejecutar en su computador.
 
+lo que se debe ajustar es lo siguiente: C:\\Users\\bpcab\\Desktop\\AppSupermercado(N)\\proveedores.txt
+se especifica donde se guardo el proyecto en su dispositivo.
+
 
 En cuanto al diagrama UML nuestra version de netBean (21) no acepta el plugin de EassyUML, por lo que
 no tuvimos como hacer el diagrama. Solicito su comprension en cuanto a este punto. 
